@@ -55,18 +55,18 @@ var config = {
     var trainFrequency = trainSnapshot.val().start;
     var trainNextArrival = trainSnapshot.val().rate;
   
-    // Employee Info
+    // train Info
     console.log(trainName);
     console.log(trainDestination);
     console.log(trainFrequency);
     console.log(trainNextArrival);
   
-    // Prettify the employee start
-    var empStartPretty = moment.unix(empStart).format("MM/DD/YYYY");
+    // Prettify the train start
+    var trainStartPretty = moment.unix(trainStart).format("MM/DD/YYYY");
   
     // Calculate the months worked using hardcore math
     // To calculate the months worked
-    var empMonths = moment().diff(moment(empStart, "X"), "months");
+    var trainMonths = moment().diff(moment(empStart, "X"), "months");
     console.log(empMonths);
   
     // Calculate the total billed rate

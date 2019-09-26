@@ -1,7 +1,15 @@
+.jumbotron{
+  background-image: url(https://grasswire.com/wp-content/uploads/2018/02/IMG_20170701_172441-1320x742.jpg);
+  background-repeat: no-repeat;
+  background-size: 1110px 250px;
+}
 
-.train {
-    background-color: brown;
-    color:whitesmoke;
-    margin: 20px;
-    padding: 20px;
+.form-group{
+  background-color:black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  }
+
+  .card-header{
+    background-color: purple;
   }
